@@ -1,7 +1,5 @@
 class Worker < ActiveRecord::Base
-has_many :operations
+has_many :operations, :dependent => :delete_all
 validates :name, presence: true
 
-
-scope :inventoryUsed, ->{(Operation.where(:worker_id => 1)).inventario_id}
 end
