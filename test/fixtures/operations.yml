@@ -2,9 +2,11 @@
 
 one:
   worker_id: 1
+  inventario_id: 1
 
 two:
   worker_id: 2
+  inventario_id: 2
 
 three:
   worker_id: 3
