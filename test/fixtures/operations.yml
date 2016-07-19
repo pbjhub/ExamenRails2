@@ -1,9 +1,10 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: Jose
-  email: jose@gmail.com
+  worker_id: 1
 
 two:
-  name: Marcos
-  email: marcos@gmail.com
+  worker_id: 2
+
+three:
+  worker_id: 3
